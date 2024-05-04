@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+    cursor: pointer;
+}
+
+.link-header {
+    padding-right: 32px;
+}
+
+.button-header {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+img {
+    margin-left: 121px;
+    margin-top: 163px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 83px;
+}
+
+h1 {
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 582px;
+    margin-bottom: 47px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-bottom: 55px;
+}
+
+.link-main {
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+
+    .link-header{
+        display: none;
+    }
+    .button-header{
+        width: 91px;
+        height: 31px;
+        flex-shrink: 0;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        width: 278px;
+        height: 60px;
+        margin-top: 110px;
+
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        width: 304px;
+        height: 165px;
+    }
+    div{
+        position: absolute;
+        margin: 0 13%;
+    }
+    
+    img{
+        margin:auto;
+        display: block;
+        position: fixed;
+        margin-top: 520px;
+        margin-left: 47px;
+        max-width: 78%;
+      
+    }
+    .link-main{
+        display: flex;
+        position: absolute;
+        margin: 0 24%;
+    }
+}
